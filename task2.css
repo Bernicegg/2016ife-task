@@ -1,0 +1,97 @@
+body{
+	background-color: #EDEBEB;
+	font-size: 12px;
+	font-family: microsoft yahei;
+}
+
+h1{
+	font-size: 16px;
+	font-weight: bold;
+}
+h2{
+	font-size: 14px;
+}
+
+
+header{
+	background-color: #2E1D11;
+	width: 1000px;
+	height: 60px;
+}
+
+nav{
+	color: #fff;
+	font-size: 12px;
+}
+
+
+nav,nav ul li{
+	float: left;
+	padding: 0；
+	margin:0;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+
+}
+
+nav{
+	float: right;
+}
+
+#article1,#article2,#picbar,#article3,#sidebar{
+	width: 900px;
+	background-color: #fff;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #fff;
+	box-shadow:3px 3px 1px #444;
+}
+#article1 p,#article2 p{
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+#article1 p a,#article2 p a{
+	color: #2B18ED;
+}
+#article2 ul{
+	list-style-type: none;
+}
+#picbar div{
+	width: 200px;
+	background-color: #fff;
+	margin: 5px 0px 20px 45px;
+	padding: 10px;
+	border: 1px solid #000;
+	text-align: center;
+}
+#article3 table{
+	border-collapse: collapse;
+	width: 100%;
+}
+#article3 table,th,td{
+	border: 1px solid #D3D2D5;
+	padding:3px;
+}
+#article3 th{
+	background-color: #000;
+	color: #fff;
+	text-align: left;
+}
+#sp{
+	background-color:#D3D2D5;
+	font-weight:bold;
+}
+
+
