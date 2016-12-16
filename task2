@@ -132,7 +132,7 @@
 		</div>
 		<div id="sidebar">
 			<h1>这里以后是一个侧栏，这是侧栏的标题</h1>
-			<form class="form-box">
+			<form class="form-box" action="#" method="post">
 				<table>
 				<tr>
 					<td class="form-lable"><lable>请输入邮箱地址</lable></td>
@@ -144,13 +144,13 @@
 				</tr><br />
 				<tr>
 					<td class="form-lable"><lable>请重新输入密码</lable></td>
-					<td class="form-frame"<input type="password" name="password"></td>
+					<td class="form-frame"><input type="password" name="password"></td>
 				</tr><br />
 				<tr>
 					<td class="form-lable"><lable>性别</lable></td>
 					<td class="form-frame"><input type="radio" name="sex">男<input type="radio" name="sex">女</td>
 				</tr><br />
-				<tr>
+				<tr>s
 					<td class="form-lable"><lable>城市</lable></td>
 					<td class="form-frame"><select><option>北京</option></select></td>
 				</tr><br />
@@ -161,7 +161,8 @@
 					<td class="form-lable"><lable>个人描述</lable></td>
 					<td class="form-frame"><textarea></textarea>
 				</td><br />
-				<input type="button" name="button" value="确认提交">
+				</table>
+				<input id="button" type="button" name="button" value="确认提交">
 			</form>
 		</div>
 	<footer>版权所有&copy;</footer>
