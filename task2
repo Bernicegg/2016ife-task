@@ -175,8 +175,8 @@
 					<div class="form-lable">个人描述</div>
 					<textarea placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
 				</div>
-				<div class="button" >
-				<input type="button" name="button" value="确认提交">
+				<div class="submit" >
+				<input type="submit" name="button" value="确认提交">
 				</div>
 			</form>
 		</div>
